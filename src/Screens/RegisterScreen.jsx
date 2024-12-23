@@ -23,7 +23,7 @@ const RegisterScreen = () => {
         console.log('Formulario registro enviado')
 
         //hacemos la consulta como en post man pero desde front end
-        const responseHTTP = await fetch('http://localhost:3000/api/auth/register', {
+        const responseHTTP = await fetch(`https://pwa-tn-noviembre-backend-qh4j0a4hi-kevins-projects-15a4dbed.vercel.app/api/auth/register`, {
             method: 'POST',
             headers:{
                 'Content-Type' : 'application/json'
